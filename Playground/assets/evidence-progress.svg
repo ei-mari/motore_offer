@@ -1,0 +1,15 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" rx="24" fill="#EDF7F1"/>
+  <rect x="52" y="54" width="796" height="452" rx="20" fill="white"/>
+  <text x="80" y="110" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="30" fill="#0F3557" font-weight="700">EPT 変化サマリー</text>
+  <line x1="90" y1="414" x2="800" y2="414" stroke="#D5E4D9" stroke-width="4"/>
+  <line x1="90" y1="176" x2="90" y2="414" stroke="#D5E4D9" stroke-width="4"/>
+  <polyline points="130,366 250,338 390,296 540,244 700,190" stroke="#EA7B4A" stroke-width="8" fill="none"/>
+  <circle cx="130" cy="366" r="11" fill="#EA7B4A"/>
+  <circle cx="250" cy="338" r="11" fill="#EA7B4A"/>
+  <circle cx="390" cy="296" r="11" fill="#EA7B4A"/>
+  <circle cx="540" cy="244" r="11" fill="#EA7B4A"/>
+  <circle cx="700" cy="190" r="11" fill="#EA7B4A"/>
+  <rect x="610" y="94" width="200" height="62" rx="12" fill="#0F3557"/>
+  <text x="640" y="134" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="28" fill="#F7F3EB" font-weight="700">+21%</text>
+</svg>
