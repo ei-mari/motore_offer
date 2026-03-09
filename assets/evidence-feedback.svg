@@ -1,0 +1,14 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" rx="24" fill="#F7F3EB"/>
+  <rect x="42" y="44" width="816" height="472" rx="20" fill="white"/>
+  <rect x="78" y="92" width="220" height="34" rx="17" fill="#0F3557"/>
+  <text x="92" y="116" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="18" fill="#F7F3EB" font-weight="700">添削フィードバック例</text>
+  <rect x="78" y="158" width="744" height="16" rx="8" fill="#D8E5EF"/>
+  <rect x="78" y="192" width="640" height="16" rx="8" fill="#D8E5EF"/>
+  <rect x="78" y="236" width="744" height="96" rx="12" fill="#FFF3DD"/>
+  <text x="98" y="290" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="26" fill="#8A4B1A" font-weight="700">Before: /e/ が /i/ に寄る</text>
+  <rect x="78" y="356" width="360" height="120" rx="14" fill="#DBF5EF"/>
+  <rect x="462" y="356" width="360" height="120" rx="14" fill="#EAF0FA"/>
+  <text x="105" y="426" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="22" fill="#0D6A54" font-weight="700">修正ポイント</text>
+  <text x="490" y="426" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="22" fill="#1C3F64" font-weight="700">次回課題</text>
+</svg>
