@@ -50,6 +50,10 @@ body.coaching-funnel {
   padding-bottom: calc(6.5rem + env(safe-area-inset-bottom, 0px));
 }
 
+body.schedule-page {
+  padding-bottom: calc(8.75rem + env(safe-area-inset-bottom, 0px));
+}
+
 body::before {
   display: none;
 }
@@ -2088,6 +2092,21 @@ p {
   border-color: rgba(17, 38, 61, 0.18);
 }
 
+.schedule-floating-cta-inner {
+  width: min(860px, calc(100% - 2rem));
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+}
+
+.schedule-floating-cta-button {
+  width: 100%;
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+}
+
 .accordion summary {
   cursor: pointer;
   list-style: none;
@@ -2451,6 +2470,16 @@ p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  body.schedule-page {
+    padding-bottom: calc(7rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .schedule-floating-cta-inner {
+    width: min(860px, calc(100% - 3rem));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
   .metric-card {
     padding-left: calc(var(--panel-padding) + 2.55rem);
   }
@@ -2591,6 +2620,12 @@ p {
   .floating-cta-links {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .schedule-floating-cta-inner {
+    width: min(860px, calc(100% - 3.2rem));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -2599,6 +2634,10 @@ p {
   }
 
   body.coaching-funnel {
+    padding-bottom: calc(7rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  body.schedule-page {
     padding-bottom: calc(7rem + env(safe-area-inset-bottom, 0px));
   }
 
@@ -2743,6 +2782,12 @@ p {
 
   .floating-cta-links {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .schedule-floating-cta-inner {
+    width: min(860px, calc(100% - 4rem));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
   }
 
   .offer-list-detail {
