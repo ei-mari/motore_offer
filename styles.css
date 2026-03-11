@@ -1923,6 +1923,10 @@ p {
   width: 100%;
   min-height: 52px;
   border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
 }
 
 .floating-cta-links {
@@ -1935,6 +1939,7 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 0.38rem;
   min-height: 42px;
   padding: 0.7rem 0.9rem;
   border-radius: 12px;
@@ -1946,6 +1951,11 @@ p {
   text-decoration: none;
   line-height: 1.35;
   text-align: center;
+}
+
+.floating-cta-icon {
+  line-height: 1;
+  transform: translateY(-1px);
 }
 
 .floating-cta-link:hover {
