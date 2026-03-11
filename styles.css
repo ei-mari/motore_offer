@@ -1476,6 +1476,39 @@ p {
   line-height: 1.64;
 }
 
+.capacity-note {
+  display: grid;
+  gap: 0.1rem;
+  margin-top: 0.45rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(121, 145, 170, 0.12);
+}
+
+.capacity-note-title,
+.capacity-note-copy,
+.capacity-note-meta {
+  margin: 0;
+}
+
+.capacity-note-title {
+  color: var(--navy);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.55;
+}
+
+.capacity-note-copy {
+  color: #556678;
+  font-size: 0.88rem;
+  line-height: 1.62;
+}
+
+.capacity-note-meta {
+  color: #738293;
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
 .offer-includes {
   display: grid;
   gap: var(--space-3);
@@ -1531,6 +1564,79 @@ p {
   border-radius: 10px;
   background: rgba(245, 239, 230, 0.72);
   border: 1px solid rgba(195, 162, 108, 0.16);
+}
+
+.course-perks {
+  display: grid;
+  gap: 0.85rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(255, 248, 240, 0.72);
+  border: 1px solid rgba(217, 109, 52, 0.14);
+}
+
+.course-perks-label,
+.course-perks-intro,
+.course-perk-title,
+.course-perk-copy {
+  margin: 0;
+}
+
+.course-perks-label {
+  color: var(--accent-deep);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.course-perks-intro {
+  color: var(--navy);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.62;
+}
+
+.course-perks-grid {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.course-perk-card {
+  display: grid;
+  gap: 0.38rem;
+  padding: 0.95rem 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(217, 109, 52, 0.1);
+}
+
+.course-perk-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  color: var(--navy);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.course-perk-icon {
+  line-height: 1;
+  transform: translateY(-1px);
+}
+
+.course-perk-copy {
+  color: #556678;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.course-perk-list {
+  margin: 0.1rem 0 0;
+  padding-left: 1.1rem;
+  color: #556678;
+  font-size: 0.84rem;
+  line-height: 1.62;
 }
 
 .offer-includes-title {
@@ -2294,6 +2400,11 @@ p {
 
   .plan-choice-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .course-perks-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
   }
 
   .scenario-strip {
